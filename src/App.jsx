@@ -20,7 +20,7 @@ function App() {
   return (
     <AuthProvider>
       <CartProvider>
-        <Router>
+        <Router basename="/prodesk_mission6">
           <div className="app-container">
             <Navbar />
             <main className="content">
