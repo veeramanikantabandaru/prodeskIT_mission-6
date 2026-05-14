@@ -20,7 +20,7 @@ function App() {
   return (
     <AuthProvider>
       <CartProvider>
-        <Router basename="/prodesk_mission6">
+        <Router basename={import.meta.env.BASE_URL}>
           <div className="app-container">
             <Navbar />
             <main className="content">
